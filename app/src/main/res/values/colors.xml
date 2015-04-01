@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color
+        name="action_bar_color"
+        >#013888</color>
+    <color
+        name="notification_bar"
+        >#012C68</color>
+</resources>
+

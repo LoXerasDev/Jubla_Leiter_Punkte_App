@@ -1,0 +1,15 @@
+<resources>
+
+    <!--
+        Base application theme for API 14+. This theme completely replaces
+        AppBaseTheme from BOTH res/values/styles.xml and
+        res/values-v11/styles.xml on API 21+ devices.
+    -->
+    <style name="AppTheme" parent="android:Theme.Material.Light.DarkActionBar">
+        <!-- API 21 theme customizations can go here. -->
+        <item name="android:colorPrimary">@color/action_bar_color</item>
+        <item name="android:colorPrimaryDark">@color/notification_bar</item>
+
+    </style>
+
+</resources>

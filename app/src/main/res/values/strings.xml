@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Leiter Punkte</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_multyinsert">Multy Insert</string>
+</resources>
