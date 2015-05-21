@@ -4,6 +4,7 @@ import android.accounts.AccountManager;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Dialog;
+import android.app.DialogFragment;
 import android.app.ProgressDialog;
 import android.content.ActivityNotFoundException;
 import android.content.Context;
@@ -47,6 +48,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 
+
 public class MainActivity extends Activity {
 
     Spinner leiter;
@@ -87,7 +89,6 @@ public class MainActivity extends Activity {
     Button upload,download;
    static EditText grund,punkte;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -104,6 +105,8 @@ public class MainActivity extends Activity {
         context = getApplicationContext();
 
 
+
+
         try {
             versionCode = getPackageManager().getPackageInfo(getPackageName(), 0).versionCode;
         } catch (PackageManager.NameNotFoundException e) {
@@ -118,15 +121,6 @@ public class MainActivity extends Activity {
             e.printStackTrace();
         }
         compareVerison();
-
-
-
-
-
-
-
-
-
 
 
         getMail();
@@ -201,7 +195,12 @@ public class MainActivity extends Activity {
 
 
                 if (isOnline() == true) {
-                   MySql.insert(value_time,value_accountName,value_leiter, value_punkte, value_grund);
+
+
+                   if(MySql.insert(value_time,value_accountName,value_leiter, value_punkte, value_grund)){
+                       alertView("Erfolg!","Punkte erfolgreich eingetragen.");
+                   }
+
                 } else {
                     Toast.makeText(getApplicationContext(), "Keine Verbindung zum Internet!",
                             Toast.LENGTH_LONG).show();
@@ -539,6 +538,17 @@ public class MainActivity extends Activity {
     }
     public void punkteset(String i){
         punkte.setText( i);
+    }
+
+    public void alertView( String message, String title) {
+        AlertDialog.Builder dialog = new AlertDialog.Builder(MainActivity.this);
+
+        dialog.setTitle(title)
+                .setMessage(message)
+                .setPositiveButton("Ok", new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialoginterface, int i) {
+                    }
+                }).show();
     }
 }
 

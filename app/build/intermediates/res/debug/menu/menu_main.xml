@@ -4,4 +4,4 @@
     <item android:id="@+id/action_multyinsert" android:title="@string/action_multyinsert"
         android:orderInCategory="100" />
 </menu>
-<!-- From: file:/C:/Android/workspace/LeiterPunkte/app/src/main/res/menu/menu_main.xml -->
+<!-- From: file:/C:/Users/Admin/Documents/GitHub/Jubla_Leiter_Punkte_App/app/src/main/res/menu/menu_main.xml -->

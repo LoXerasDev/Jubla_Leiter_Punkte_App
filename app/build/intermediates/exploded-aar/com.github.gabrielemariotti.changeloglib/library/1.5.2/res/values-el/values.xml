@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/home/gabriele/Lavoro/Android/AndroidStudioProjects/wrks/changeloglib/ChangeLogLibrary/src/main/res/values-el/strings.xml -->
+    <eat-comment/>
+    <string name="changelog_header_version">"Έκδοση "</string>
+    <string name="changelog_internal_error_internet_connection">Δεν υπάρχει σύνδεση στο διαδίκτυο για να κατέβουν οι αλλαγές</string>
+    <string name="changelog_internal_error_parsing">Σφάλμα κατά την ανάλυση αρχείου</string>
+    <string name="changelog_row_bulletpoint">\u2022</string>
+    <string name="changelog_row_prefix_bug">[b]Σφάλμα:[/b]</string>
+    <string name="changelog_row_prefix_improvement">[b]Νέο:[/b]</string>
+</resources>

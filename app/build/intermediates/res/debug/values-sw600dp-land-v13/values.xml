@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/Admin/Documents/GitHub/Jubla_Leiter_Punkte_App/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.changeloglib/library/1.5.2/res/values-sw600dp-land-v13/values.xml -->
+    <eat-comment/>
+    <dimen name="chglib_material_keyline1">24dp</dimen>
+    <dimen name="chglib_material_minHeight">64dp</dimen>
+</resources>

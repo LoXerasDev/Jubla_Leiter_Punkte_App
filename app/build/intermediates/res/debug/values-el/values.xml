@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- From: file:/C:/Android/workspace/LeiterPunkte/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/res/values-el/common_strings.xml -->
+    <!-- From: file:/C:/Users/Admin/Documents/GitHub/Jubla_Leiter_Punkte_App/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.changeloglib/library/1.5.2/res/values-el/values.xml -->
+    <eat-comment/>
+    <string name="changelog_header_version">"Έκδοση "</string>
+    <string name="changelog_internal_error_internet_connection">Δεν υπάρχει σύνδεση στο διαδίκτυο για να κατέβουν οι αλλαγές</string>
+    <string name="changelog_internal_error_parsing">Σφάλμα κατά την ανάλυση αρχείου</string>
+    <string name="changelog_row_bulletpoint">\u2022</string>
+    <string name="changelog_row_prefix_bug">[b]Σφάλμα:[/b]</string>
+    <string name="changelog_row_prefix_improvement">[b]Νέο:[/b]</string>
+    <!-- From: file:/C:/Users/Admin/Documents/GitHub/Jubla_Leiter_Punkte_App/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/res/values-el/common_strings.xml -->
     <eat-comment/>
     <string msgid="473679118463211576" name="common_android_wear_notification_needs_update_text">"Μια εφαρμογή απαιτεί την ενημέρωση της εφαρμογής Android Wear."</string>
     <string msgid="3046420540094071256" name="common_android_wear_update_text">"Αυτή η εφαρμογή δεν θα εκτελεστεί εάν δεν ενημερώσετε την εφαρμογή Android Wear."</string>

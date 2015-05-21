@@ -1,5 +1,7 @@
 package com.loxeras.leiterpunkte;
 
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.util.Log;
 
 import org.apache.http.HttpEntity;
@@ -75,6 +77,7 @@ public class MySql {
         });
 
         thread.start();
+
         return true;
     }
 
@@ -133,6 +136,8 @@ public class MySql {
 
         return result;
     }
+
+
 
 
 }

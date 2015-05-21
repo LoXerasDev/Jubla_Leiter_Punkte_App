@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/home/gabriele/Lavoro/Android/AndroidStudioProjects/wrks/changeloglib/ChangeLogLibrary/src/main/res/values-sw600dp-land/dimens.xml -->
+    <eat-comment/>
+    <dimen name="chglib_material_keyline1">24dp</dimen>
+    <dimen name="chglib_material_minHeight">64dp</dimen>
+</resources>

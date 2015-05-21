@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/home/gabriele/Lavoro/Android/AndroidStudioProjects/wrks/changeloglib/ChangeLogLibrary/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="chglib_background_default_divider_color">#DADADC</color>
+    <color name="chglib_material_background_default_divider_color">#1F000000</color>
+    <color name="chglib_material_color_text_1">#de000000</color>
+    <color name="chglib_material_color_text_2">#8a000000</color>
+    <color name="chglib_material_color_text_3">#60000000</color>
+    <declare-styleable name="ChangeLogListView"><attr format="reference" name="rowLayoutId"/><attr format="reference" name="rowHeaderLayoutId"/><attr format="reference" name="changeLogFileResourceId"/><attr format="string" name="changeLogFileResourceUrl"/></declare-styleable>
+    <!-- From: file:/home/gabriele/Lavoro/Android/AndroidStudioProjects/wrks/changeloglib/ChangeLogLibrary/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="chglib_material_keyline1">16dp</dimen>
+    <dimen name="chglib_material_list_fontsize">16sp</dimen>
+    <dimen name="chglib_material_list_suheader_fontsize">14sp</dimen>
+    <dimen name="chglib_material_minHeight">56dp</dimen>
+    <dimen name="listPreferredItemHeightSmall">48dp</dimen>
+    <!-- From: file:/home/gabriele/Lavoro/Android/AndroidStudioProjects/wrks/changeloglib/ChangeLogLibrary/src/main/res/values/fonts.xml -->
+    <eat-comment/>
+    <integer name="font_textStyle_material_item">0</integer>
+    <!-- From: file:/home/gabriele/Lavoro/Android/AndroidStudioProjects/wrks/changeloglib/ChangeLogLibrary/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="changelog_header_version">"Version "</string>
+    <string name="changelog_internal_error_internet_connection">No internet connection to fetch the changelog</string>
+    <string name="changelog_internal_error_parsing">Error while parsing file</string>
+    <string name="changelog_row_bulletpoint">\u2022</string>
+    <string name="changelog_row_prefix_bug">[b]Bug:[/b]</string>
+    <string name="changelog_row_prefix_improvement">[b]New:[/b]</string>
+    <!-- From: file:/home/gabriele/Lavoro/Android/AndroidStudioProjects/wrks/changeloglib/ChangeLogLibrary/src/main/res/values/fonts.xml -->
+    <eat-comment/>
+    <string name="font_fontFamily_material_item">sans-serif</string>
+</resources>
